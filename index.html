@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Next Gen Nickname</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="body">
+    <label id="n-label" for="n-length">Choose nickname length (3 - 16)</label>
+    <input id="n-length" type="number" min="3" max="16">
+    <button id="n-generate" class="button">generate</button>
+    <button id="n-remove" class="button">remove all</button>
+    <div class="result">
+        <span id="n-result">Nickname will appear here</span>
+        <img id="copy" src="copy.png" alt="copy">
+    </div>
+</div>
+<div class="list-parent">
+    <ul class="list"></ul>
+</div>
+
+
+<script src="generator.js"></script>
+</body>
+</html>
